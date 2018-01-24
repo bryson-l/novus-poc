@@ -38,5 +38,9 @@ export class AppComponent implements OnInit {
             $('#wrapper').toggleClass('toggled');
       });  
     });
+      $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+  });
   }
 }
