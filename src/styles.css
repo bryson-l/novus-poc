@@ -374,7 +374,7 @@ a {
 }
 
 .main-header .navigation .btn-menu {
-  background: transparent url("../images/menu-btn.svg") no-repeat center;
+  background: transparent url("../node_modules/responsive-webpage-header/dist/images/menu-btn.svg") no-repeat center;
   background-size: 14px;
   display: block;
   width: 24px;
