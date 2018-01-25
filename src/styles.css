@@ -374,7 +374,7 @@ text-indent: 20px;
 }
 
 .sidebar-nav li a {
-color: #999999;
+color: #fff;
 display: block;
 text-decoration: none;
 }
@@ -436,13 +436,14 @@ display: inline-block;
 }
 #sidebar-wrapper {
   left: 70px;
+  width: 190px;
 }
 #wrapper.active {
   padding-left: 150px;
 }
 #wrapper.active #sidebar-wrapper {
   left: 150px;
-  width: 150px;
+  width: 190px;
   transition: all .4s ease 0s;
 }
 }
