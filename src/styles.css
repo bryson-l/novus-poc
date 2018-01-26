@@ -1,3 +1,6 @@
+.main-header .navigation .nav-links>li a:hover {
+  font-weight: bold;
+}
 /* 
 /*-------------------------------*/
 
@@ -314,12 +317,16 @@ a {
 #sidebar-wrapper {
   margin-left: -150px;
   left: 70px;
-  width: 150px;
+  width: 170px;
   background: #222;
   position: fixed;
   height: 100%;
   z-index: 10000;
   transition: all .4s ease 0s;
+}
+
+.active #sidebar-wrapper {
+  /* margin-left: -170px; */
 }
 
 .sidebar-nav {
@@ -336,11 +343,10 @@ a {
   width: 100%;
   height: auto;
 }
-#wrapper.active {
-  padding-left: 150px;
-}
+
 #wrapper.active #sidebar-wrapper {
   left: 150px;
+  margin-left: 10px;
 }
 
 #page-content-wrapper {
@@ -352,7 +358,7 @@ width: 100%;
   display: block;
   float: left;
   text-decoration: none;
-  width: 150px;
+  width: 170px;
   background: #252525;
   border-top: 1px solid #373737;
   border-bottom: 1px solid #1A1A1A;
@@ -434,16 +440,17 @@ display: inline-block;
   padding-left: 70px;
   transition: all .4s ease 0s;
 }
-#sidebar-wrapper {
-  left: 70px;
-  width: 190px;
-}
-#wrapper.active {
-  padding-left: 150px;
+
 }
 #wrapper.active #sidebar-wrapper {
   left: 150px;
-  width: 190px;
+  width: 170px;
   transition: all .4s ease 0s;
 }
+#sidebar-wrapper {
+  left: 70px;
+  width: 170px;
+}
+#wrapper.active {
+  padding-left: 170px;
 }
